@@ -39,25 +39,19 @@ a:hover {
   object-fit: cover;
   object-position: center top;
   align-items: center;
-  margin-left: 48%;
-  margin-top: 80px;
+  margin-left: 45.5%;
+  margin-top: 75px;
   border-radius: 50%;
   border: #ea1811 2px solid;
 
 }
 
-h1{
-  color: white;
-  margin-left: 44%;
-  font-family: 'Delius',sans-serif;
-  font-size: xx-large;
-}
 
 .intro1,.intro2,.intro3 {
   font-family: 'Delius' , sans-serif;
   font-size: large;
   color: white;
-  margin-left: 35%;
+  margin-left: 33%;
   margin-right: 30%;
 
 }
@@ -66,3 +60,37 @@ h1{
   margin-top: 0;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, 150px);
+  gap: 25px;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 70px;
+  margin-top: 65px;
+}
+
+.aboutblock {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(18, 12, 34);
+  border-radius: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 65px;
+  gap: 70px
+}
+
+
+.projectcard {
+  background-color: rgb(18, 12, 34);
+  border-radius: 20px;
+}
